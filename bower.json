@@ -1,19 +1,21 @@
 {
-  "name": "paper-chat",
-  "version": "0.0.1",
+  "name": "kitteh-anonymous",
+  "version": "0.1.0",
+  "homepage": "pubnub.com",
   "authors": [
-    "Tomomi Imura <tomomi@pubnub.com>"
+    "Tomomi Imura <tomomi.i@gmail.com>"
   ],
-  "description": "A simple chat demo in Material Design",
+  "description": "A chat roon demo app, built with Polymer and PubNub in Material Design.",
   "keywords": [
     "polymer",
-    "material",
-    "design",
+    "material design",
     "pubnub",
-    "chat"
+    "chat",
+    "realtime",
+    "real-time",
+    "firebase"
   ],
   "license": "MIT",
-  "homepage": "pubnub.com",
   "private": true,
   "ignore": [
     "**/.*",
@@ -23,8 +25,15 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#1.0.0",
-    "pubnub-element": "4.0.0",
-    "time-elements": "0.4.0"
+    "polymer": "Polymer/polymer#~1.2.3",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#~1.2.0",
+    "paper-input": "PolymerElements/paper-input#~1.1.1",
+    "paper-item": "PolymerElements/paper-item#~1.1.1",
+    "paper-fab": "PolymerElements/paper-fab#~1.1.0",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.5",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.0.5",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.1.1",
+    "pubnub-element": "~4.0.1",
+    "time-elements": "~0.4.0"
   }
 }

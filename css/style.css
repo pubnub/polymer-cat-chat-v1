@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "RobotoDraft", "Helvetica Neue", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: Roboto, Noto, "Helvetica Neue", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif;
     color: #333;
     font-weight: 300;
 }
@@ -10,16 +10,11 @@ body {
     height: 100%;
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
-paper-drawer-panel::shadow paper-toolbar {
-    background-color: #ce1126;
-    color: #fff;
-}
 iron-icon[icon=account-circle] {
     margin-right: 3px;
 }
-
 paper-fab[icon=send] {
-    background: #ce1126;
+    background: #F44336;
     bottom: 9px;
 }
 #chat {
@@ -54,7 +49,6 @@ paper-fab[icon=send] {
     margin: 16px;
     text-transform: capitalize;
 }
-
 ::content > .avatar {
     margin: 0; /* override */
 }
