@@ -1,5 +1,7 @@
 *This is still not completed yet. Certain features are not working as expected. I hope I fins some time to re-work on this project...*
 
+*and a huge thanks to [Whyser](https://github.com/Whyser) and [Zeno Rocha](https://github.com/zenorocha) for helping me!!!*
+
 *Tomomi*
 
 ![Material Design and Polymer](http://pubnub.com/blog/wp-content/uploads/2015/01/paper-chat-cover.png "Material Design and Polymer")
